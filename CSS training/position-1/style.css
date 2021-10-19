@@ -19,6 +19,7 @@ h1 {
 
 .user-card {
   width: 240px;
+  padding: 8px 12px;
   border-radius: 4px;
   background-color: #FFF;
 }
@@ -32,7 +33,7 @@ h1 {
 .user-photo {
   float: left;
   position: relative;
-  margin: 8px 12px;
+  margin-right: 12px;
 }
 
 .user-photo img {
@@ -43,12 +44,11 @@ h1 {
 }
 
 .user-status {
-  display: block;
   position: absolute;
-  bottom: 0px;
-  right: 0px;
-  width: 10px;
-  height: 10px;
+  bottom: -2px;
+  right: -2px;
+  width: 12px;
+  height: 12px;
   border: 2px solid #FFF;
   border-radius: 50%;
   background-color: #21D891;
@@ -56,5 +56,5 @@ h1 {
 
 .user-name {
   float: left;
-  margin: 16px 12px;
+  padding: 8px 0px;
 }
