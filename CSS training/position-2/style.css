@@ -69,31 +69,31 @@ button {
   height: auto;
 }
 
-.card-carousel button {
+#prev, #next {
   position: absolute;
   width: 28px;
   height: 28px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #prev {
-  top: 106px;
   left: 0px;
 }
 
 #next {
-  top: 106px;
   right: 0px;
 }
 
 .card-content {
   padding: 12px 16px;
 }
-
-.card-content span {
-  display: block;
+.card-content {
+  margin-bottom: 2px;
 }
 
 .card-content strong {
   display: block;
-  position: relative;
+  margin-top: 8px;
+  text-align: right;
 }
