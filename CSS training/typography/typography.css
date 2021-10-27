@@ -1,0 +1,95 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  letter-spacing: -0.015em;
+}
+
+/* Font Size */
+
+.fs-tiny {
+  font-size: 12px;
+  line-height: 1.33333333;
+}
+
+.fs-small {
+  font-size: 14px;
+  line-height: 1.42857142;
+}
+
+.fs-base {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.fs-medium {
+  font-size: 18px;
+  line-height: 1.55555555;
+}
+
+.fs-large {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.fs-h2 {
+  font-size: 28px;
+  line-height: 1.42857142
+}
+
+.fs-h1 {
+  font-size: 34px;
+  line-height: 1.41176470;
+}
+
+
+/* Font Weight */
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+
+/* Color */
+
+.txt-dark {
+  color: #1F2D3D;
+}
+
+.txt-primary {
+  color: #3C4858;
+}
+
+.txt-secondary {
+  color: #8492A6;
+}
+
+.txt-tertiary {
+  color: #C0CCDA;
+}
+
+.txt-white {
+  color: #FFF;
+}
+
+.txt-success {
+  color: #13CE66;
+}
+
+.txt-error {
+  color: #FF5216;
+}
+
+.txt-info {
+  color: #009EEB;
+}
