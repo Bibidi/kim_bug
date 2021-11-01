@@ -1,0 +1,72 @@
+.like-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* ▼ WHERE YOUR CODE BEGINS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 900px;
+  background-color: #FFF;
+  padding: 24px;
+}
+
+.card-image {
+  width: 300px;
+  height: 200px;
+  background-image: url(./assets/img-house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.plus-badge {
+  padding: 1px 8px;
+  background-color: #92174D;
+  color: #FFF;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.42857142;
+  font-weight: 500;
+}
+
+.property-type span {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #7D858F;
+}
+
+.property-rate strong::before {
+  content: url('./assets/icon-star.svg');
+}
+
+.sr-only {
+  display: none;
+}
+
+.card-title {
+  margin-bottom: 16px;
+}
+
+.property-detail div {
+  color: #7D858F;
+  margin-bottom: 8px;
+}
