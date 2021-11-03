@@ -23,11 +23,14 @@ body {
 }
 
 .card-image {
+  position: relative;
   width: 300px;
   height: 200px;
+  border-radius: 6px;
   background-image: url(./assets/img-house.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   margin-right: 24px;
 }
 
@@ -38,14 +41,30 @@ body {
   margin-bottom: 8px;
 }
 
+.like-button {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border: none;
+  border-radius: 50%;
+  background-image: url('./assets/icon-favorite.svg');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center center;
+  width: 36px;
+  height: 36px;
+}
+
 .plus-badge {
+  display: inline-block;
   padding: 1px 8px;
   background-color: #92174D;
-  color: #FFF;
   border-radius: 4px;
   font-size: 14px;
-  line-height: 1.42857142;
   font-weight: 500;
+  line-height: 1.42857142;
+  color: #FFF;
+  text-transform: uppercase;
 }
 
 .property-type span {
@@ -54,8 +73,22 @@ body {
   color: #7D858F;
 }
 
-.property-rate strong::before {
+.property-rate::before {
   content: url('./assets/icon-star.svg');
+  width: 13.33px;
+  height: 12.67px;
+}
+
+.property-rate strong {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #151B26;
+}
+
+.property-rate span {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #7D858F;
 }
 
 .sr-only {
@@ -63,10 +96,19 @@ body {
 }
 
 .card-title {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
   margin-bottom: 16px;
 }
 
 .property-detail div {
   color: #7D858F;
+  font-size: 14px;
+  line-height: 1.14285714;
   margin-bottom: 8px;
+}
+
+.property-detail span:first-of-type ~ ::before {
+  content: '· ';
 }
